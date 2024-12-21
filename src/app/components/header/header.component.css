@@ -1,0 +1,22 @@
+#nav{
+    display: flex;
+    margin: 30px 30px;
+}
+#nav_items{
+    flex: 0.30;
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+#nav_items>li{
+    font-family: "Rubik";
+    list-style-type: none;
+}
+#nav_logo{
+    display: flex;
+    flex: 0.70;
+    align-items: center;
+}
+#nav_logo > img{
+    width: 174px;
+}
