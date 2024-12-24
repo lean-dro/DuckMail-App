@@ -1,6 +1,6 @@
 <div id="container-cards">
     
-    <app-card *ngIf="totalErrosEnvios > 0" [corFundo]="'#832232'" [texto]="'Total de erros no envio'" [valor]='totalErrosEnvios' [iconeUrl]="'assets/error-icon.svg'"/>
+    <app-card [texto]="'Total de erros no envio'" [valor]='totalErrosEnvios' [iconeUrl]="'assets/error-icon.svg'"/>
     
 
     <app-card [texto]="'Total de redirecionamentos'" [valor]='totalRedirecionamentos' [iconeUrl]="'assets/redirect-icon.svg'"/>
