@@ -1,0 +1,18 @@
+
+#container-cards{
+    display: flex;
+    margin-left: 76px;
+    margin-right: 76px;
+    flex-direction: row;
+    gap: 48px;
+}
+
+app-card{
+    flex: 0.25
+}
+
+@media (width <= 1024px) {
+    #container-cards{
+        flex-direction: column;
+    }
+}
